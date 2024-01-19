@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information</title>
+    <style>
+        :root{
+            --bgcolor:lightgray;
+        }
+        table{
+            border:1px solid black;
+            border-collapse: collapse
+        }
+       table td{
+            border:1px solid black;
+        }
+        h1{
+            color:red;
+            text-align:center;
+        }
+        table{
+            margin-left:auto;
+            margin-right:auto;
+        }
+        * {background-color: rgb(140, 240, 236)}
+    </style>
+</head>
+<body>
+    <h1 style="background-color:blue;">TABLE & FORMS</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Course</th>
+                <th>Number</th>
+                <th>Email</th>
+                <th>Location</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Hania</td>
+                <td>20</td>
+                <td>Web designing</td>
+                <td>032658895</td>
+                <td>hania@gmail.com</td>
+                <td>Pia Housing Society</td>
+            </tr>
+            <tr>
+                <td>Iqra</td>
+                <td>18</td>
+                <td>Graphic Designing</td>
+                <td>0326587426</td>
+                <td>iqra@gmail.com</td>
+                <td>Wapda town NFC</td>
+            </tr>
+            <tr>
+                <td>Hammad</td>
+                <td>25</td>
+                <td>Artificial Ittelligance(AI)</td>
+                <td>0354892226</td>
+                <td>hammad@gmail.com</td>
+                <td>Johar Town</td>
+            </tr>
+            <tr>
+                <td>ALi</td>
+                <td>16</td>
+                <td>Video Editing</td>
+                <td>0326589741</td>
+                <td>ali@gmail.com</td>
+                <td>Gulberg</td>
+            </tr>
+            <tr>
+                <td>Anaya</td>
+                <td>18</td>
+                <td>Web Developnment</td>
+                <td>035697423</td>
+                <td>anaya@gmail.com</td>
+                <td>Wapda town NFC</td>
+            </tr>
+            <tr>
+                <td>zoohaib</td>
+                <td>22</td>
+                <td>Freelancing</td>
+                <td>0365478932</td>
+                <td>zohaib@gmail.com</td>
+                <td>Township</td>
+            </tr>
+            <tr>
+                <td>Alia</td>
+                <td>30</td>
+                <td>Virtual Assistant(VA)</td>
+                <td>03569874529</td>
+                <td>alia@gmail.com</td>
+                <td>Valencia</td>
+            </tr>
+            <tr>
+                <td>Ahmad</td>
+                <td>15</td>
+                <td>Video Editing</td>
+                <td>03236547892</td>
+                <td>ahmad@gmail.com</td>
+                <td>Johar Town</td>
+            </tr>
+            <tr>
+                <td>Maheen</td>
+                <td>25</td>
+                <td>Graphic Designing</td>
+                <td>03265268426</td>
+                <td>maheen@gmail.com</td>
+                <td>Bahria Town</td>
+            </tr>
+            <tr>
+                <td>Maryam</td>
+                <td>18</td>
+                <td>Freelancing</td>
+                <td>03265122258</td>
+                <td>maryam@gmail.com</td>
+                <td>Model Town</td>
+            </tr>
+        </tbody>
+    </table>
+    <form>
+    <h2 style="color:red;">Enter your Name</h2>
+    <label for="fname">First Name</label>
+    <input type="text" id="first name" name="fname">
+    <label for="lname">Last Name</label>
+    <input type="text" id="last name" name="lname">
+    <br>
+    <h2 style="color:red;">Enter your Age</h2>
+    <label for="birthdate">Age</label>
+    <input type="date" id="age" name="birthdate"><br><br>
+    <h2 style="color:red;">Choose your Course</h2>
+    <label for="course">Select your desired course</label><br><br>
+    <input type="checkbox" id="web dev" name="fav-course" value="web development">
+    <label for="fav-course">Web Development</label><br>
+    <input type="checkbox" id="web designing" name="fav-course" value="web designing">
+    <label for="fav-course">Web Designing</label><br>
+    <input type="checkbox" id="freelancing" name="fav-course" value="freelancing">
+    <label for="fav-course">Freelancing</label><br>
+    <input type="checkbox" id="graphic designing" name="fav-course" value="graphic designing">
+    <label for="fav-course">Graphic Designing</label><br>
+    <input type="checkbox" id="video editing" name="fav-course" value="video editiong">
+    <label for="fav-course">Video Editing</label><br>
+    <input type="checkbox" id="ai" name="fav-course" value="ai">
+    <label for="fav-course">Artificail Intelligence AI</label><br>
+    <input type="checkbox" id="va" name="fav-course" value="va">
+    <label for="fav-course">Virtual Assistant VA</label><br></label><br>
+    <h2 style="color:red;">Enter your Phone Number</h2>
+    <label for="phone">Enate Number</label>
+  <input type="tel" id="phone" name="phone" placeholder="+92" required><br>
+  <h2 style="color:red;">Enter your Email</h2>
+  <label for="email">Enter Email</label>
+  <input type="email" id="mail" name="email"><br>
+  <h2 style="color:red;">Enter your Location</h2>
+  <label for="location">Enter location</label>
+  <input type="text" id="location" name="location"><br><br>
+  <input type="submit">
+    </form>
+</body>
+</html>
