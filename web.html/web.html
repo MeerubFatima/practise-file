@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heavenly coffee</title>
+    <style>
+        section nav{
+            background-color:#BB9457;
+            height: 130px;
+            margin: 0 0%;
+        }
+        section nav ul{
+            list-style: none;
+        }
+        section nav ul li{
+            display: inline-block;
+            margin: 50px 15px;
+            text-align: right;
+            font-size:23px;
+        }
+        section nav ul li a{
+            text-decoration: none;
+            color:#000000;
+            font-family:roboto;
+        }
+        section nav ul li a::after{
+            content: '';
+            width: 0%;
+            height:2px;
+            background:#6F1D1B;
+            display: block;
+            transiton: 0.2s linear;
+        }
+        section nav ul li a:hover:after{
+            width: 100%;
+        }
+        .img{
+            height:250px;
+            width: 100%;
+            object-position: 10%;
+            object-fit: cover;
+            margin: 0 0%;
+        }
+        .menu{
+            text-align: center;
+        }
+        .row{
+            display: flex;
+        }
+        .column {
+            float: left;
+            padding: 50px;
+        }
+
+        /* Clearfix (clear floats) */
+         .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        h3{
+            display: inline-block;
+            padding: 0 10.75% ;
+            text-align: center; 
+            color: #ffffff;   
+        }
+        p{
+            background-color: #FFE6A7;
+            height: 150px;
+            text-align: left;
+            padding: 5% 5%;
+            font-family: roboto;
+        }
+        .ig{
+            float: right;
+            margin: 0px 0px 15px 20px;
+        }
+        .row_1{
+            display: flex;
+        }
+        .column_1 {
+            float: left;
+            padding: 10px;
+        }
+
+        /* Clearfix (clear floats) */
+         .row_1::after {
+            content: "";
+            clear: both;
+            display: table;
+         }
+         footer{
+            background-color: #231F20;
+            margin: 0 0 0 0;
+         }
+    </style>
+</head>
+<body>
+    <section>
+        <nav>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Coffee">Coffee</a></li>
+                <li><a href="#Tea">Tea</a></li>
+                <li><a href="#Food">Food</a></li>
+                <li><a href="#Cake">Cake</a></li>
+                <li><a href="#contact us">Contact us</a></li>
+                <li><a href="#signin">Signin</a></li>
+                <li><a href="#add to cart">Add to cart</a></li>
+            </ul>
+            <ul>
+                <li><a href="#contact us">Contact us</a></li>
+                <li><a href="#signin">Signin</a></li>
+                <li><a href="#add to cart">Add to cart</a></li>
+            </ul>
+        </div>
+        </nav>
+        <main style="background-color: #83673D;">
+            <img class="img" src="donuts.png.jpg">
+            <div class="menu">
+                <h1 class="menu" style="color: #ffffff;" >Menu Bar</h1>
+                <div class="row">
+                    <div class="column">
+                      <img src="coffee.jpg" alt="Coffee" style="width:250px" style="height: 200px;">
+                    </div>
+                    <div class="column">
+                      <img src="cake.jpg" alt="Cake" style="width: 150px;" style="height: px;">
+                    </div>
+                    <div class="column">
+                      <img src="tea.jpg" alt="Tea" style="width:273px" style="height: 273px;">
+                    </div>
+                    <div class="column">
+                        <img src="food.jpg" alt="Food" style="width:180px" style="height: 100px;">
+                    </div>
+                </div>
+                <h3>Coffee</h3>
+                <h3>Cake</h3>
+                <h3>Tea</h3>
+                <h3>Food</h3>
+                <div class="about">
+                    <p style="color: #6F1D1B;font-weight: 500;font-size: medium;"><img class="ig" src="co shake.jpg"  width="200" height="200"><img class="ig" src="sandwhich.jpg" width="200" height="200"><img class="ig" src="cappucinocake.jpg" width="200" height="200"> <span style="font-weight: 900;font-size: larger;" >ABOUT US</span><br><br>You really can't go wrong when you start your 
+                        day<br> with delicious, fresh and healthy coffee and it is<br> even easier when you order it from a website or <br>app "Heavenly Coffee" is genuinely 
+                        interesting <br>in quality and flavor, as well as the 
+                        main coffees<br> developed and created in the city </p>
+                </div>
+                <h2 style="font-family: Edwardian Script ITC; color: #ffffff;">WE R OFFERING YOU</h2>
+                <div class="row_1">
+                    <div class="column_1">
+                      <img src="mochalatte.jpg" alt="Mocha" style="width:200px" style="height: 200px;">
+                    </div>
+                    <div class="column-1">
+                      <img src="clubsandwhich.webp" alt="Club sandwhich" style="width: 150px;" style="height: px;">
+                    </div>
+                    <div class="column_1">
+                      <img src="tea1.webp" alt="Tea" style="width:200px" style="height: 273px;">
+                    </div>
+                    <div class="column_1">
+                        <img src="cappucinocake.jpg" alt="cappucino cake" style="width:180px" style="height: 100px;">
+                    </div>
+                    <div class="column_1">
+                        <img src="cupcake.webp" alt="Cup cake" style="width:200px" style="height: 200px;">
+                      </div>
+                      <div class="column-1">
+                        <img src="minipizza.jpg" alt="mini pizza" style="width: 150px;" style="height: px;">
+                      </div>
+
+                </div>
+        </main>
+        <footer>
+            <div>
+                <h4 style="color: #FFE6A7;">Support</h4>
+                <ul>
+                    <li style="color: #FFE6A7;">Conatact us</li>
+                    <li style="color: #FFE6A7;">My Account</li>
+                    <li style="color: #FFE6A7;">Returns</li>
+                </ul>
+            </div>
+        </footer>
+    </section>
+</body>
+</html>
